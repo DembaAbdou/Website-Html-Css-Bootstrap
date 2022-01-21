@@ -29,7 +29,7 @@ body{
 }
 .fa-bars{
   color: #fff;
-  font-size: 30 !important;
+  font-size: 30px !important;
 }
 .navbar-toggler{
   outline: none !important;
@@ -95,4 +95,11 @@ body{
   margin-bottom: 40px;
   display: block;
   transform: translateY(8px);
+}
+#services .btn-primary{
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #a517ba, #5f1728);
 }
